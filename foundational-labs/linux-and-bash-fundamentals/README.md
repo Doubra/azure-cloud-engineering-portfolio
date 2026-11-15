@@ -79,3 +79,30 @@ normal operation had been restored.
 - Disk space monitoring
 - Automated logging
 - Cloud infrastructure administration
+
+## How to Run
+
+From the lab directory, create two sample
+configuration files:
+
+```bash
+touch app.conf network.conf
+bash check-files.sh
+```
+
+To simulate a missing configuration file:
+
+```bash
+mv network.conf network.conf.bak
+bash check-files.sh
+echo $?
+```
+
+Restore the configuration file:
+
+```bash
+mv network.conf.bak network.conf
+bash check-files.sh
+echo $?
+```
+
