@@ -36,8 +36,8 @@ troubleshooting and operational best practices.
 
 | Lab | Skills Demonstrated | Status |
 |---|---|---|
-| [Azure Virtual Network Deployment](foundational-labs/azure-virtual-network-deployment/) | Virtual networks, CIDR, three-tier subnet design | In Progress |
-| Linux and Bash Fundamentals | Linux administration and shell scripting | Planned |
+| [Azure Virtual Network Deployment](foundational-labs/azure-virtual-network-deployment/) | Virtual networks, CIDR, three-tier subnet design | Completed |
+| [Linux and Bash Fundamentals](foundational-labs/linux-and-bash-fundamentals/) | Linux administration, Bash scripting, permissions and error handling | Completed |
 
 ### Upcoming Projects
 - Identity and Access Management
